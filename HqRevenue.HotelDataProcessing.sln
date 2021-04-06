@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebExtraction", "WebExtraction", "{3C1697AB-27A7-48DD-8885-B76937F8EFBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{A1F6283C-80C4-47B7-9B78-56733BAEA55B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{9F38527A-A748-427F-9DC6-338E9B3EF529}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{4F7A691C-0F8A-481A-931F-F23FF0CFB1DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebextractionConsole", "WebextractionConsole", "{F86C02E0-349A-44A1-824A-F3795A92DB15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExtraction.Application", "WebExtraction\Src\Application\WebExtraction.Application\WebExtraction.Application.csproj", "{430720CD-EBDF-490E-B325-1C4EDEC3A869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExtraction.Console", "WebExtraction\Src\WebextractionConsole\WebExtraction.Console\WebExtraction.Console.csproj", "{5443376C-AF60-4865-9832-BFA04ADFF0D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0FFCEB34-C038-4533-A1DA-8A3BA6DC11A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExtraction.Domain", "WebExtraction\Src\Domain\WebExtraction.Domain\WebExtraction.Domain.csproj", "{3782E443-1FC7-40B9-840F-44F547F7D10E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExtraction.UnitTest", "WebExtraction\Test\WebExtraction.UnitTest\WebExtraction.UnitTest.csproj", "{C48BCD18-A9CA-4228-BF8E-DB35CBC9A4B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{430720CD-EBDF-490E-B325-1C4EDEC3A869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430720CD-EBDF-490E-B325-1C4EDEC3A869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430720CD-EBDF-490E-B325-1C4EDEC3A869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430720CD-EBDF-490E-B325-1C4EDEC3A869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5443376C-AF60-4865-9832-BFA04ADFF0D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5443376C-AF60-4865-9832-BFA04ADFF0D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5443376C-AF60-4865-9832-BFA04ADFF0D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5443376C-AF60-4865-9832-BFA04ADFF0D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3782E443-1FC7-40B9-840F-44F547F7D10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3782E443-1FC7-40B9-840F-44F547F7D10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3782E443-1FC7-40B9-840F-44F547F7D10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3782E443-1FC7-40B9-840F-44F547F7D10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48BCD18-A9CA-4228-BF8E-DB35CBC9A4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48BCD18-A9CA-4228-BF8E-DB35CBC9A4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48BCD18-A9CA-4228-BF8E-DB35CBC9A4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48BCD18-A9CA-4228-BF8E-DB35CBC9A4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1F6283C-80C4-47B7-9B78-56733BAEA55B} = {3C1697AB-27A7-48DD-8885-B76937F8EFBA}
+		{9F38527A-A748-427F-9DC6-338E9B3EF529} = {3C1697AB-27A7-48DD-8885-B76937F8EFBA}
+		{4F7A691C-0F8A-481A-931F-F23FF0CFB1DA} = {A1F6283C-80C4-47B7-9B78-56733BAEA55B}
+		{F86C02E0-349A-44A1-824A-F3795A92DB15} = {A1F6283C-80C4-47B7-9B78-56733BAEA55B}
+		{430720CD-EBDF-490E-B325-1C4EDEC3A869} = {4F7A691C-0F8A-481A-931F-F23FF0CFB1DA}
+		{5443376C-AF60-4865-9832-BFA04ADFF0D0} = {F86C02E0-349A-44A1-824A-F3795A92DB15}
+		{0FFCEB34-C038-4533-A1DA-8A3BA6DC11A7} = {A1F6283C-80C4-47B7-9B78-56733BAEA55B}
+		{3782E443-1FC7-40B9-840F-44F547F7D10E} = {0FFCEB34-C038-4533-A1DA-8A3BA6DC11A7}
+		{C48BCD18-A9CA-4228-BF8E-DB35CBC9A4B4} = {9F38527A-A748-427F-9DC6-338E9B3EF529}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ED1C58B-A482-4750-A0BA-BC6929AD4D46}
+	EndGlobalSection
+EndGlobal
